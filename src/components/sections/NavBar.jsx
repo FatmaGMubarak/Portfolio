@@ -54,7 +54,7 @@ export default function NavBar() {
         className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="navbar-sticky"
         aria-expanded={menuOpen}
-        aria
+
       >
         <span className="sr-only">Open main menu</span>
         <svg
@@ -76,11 +76,11 @@ export default function NavBar() {
     </div>
      <div
           className={`${
-            menuOpen ? "block bg-customPink2 mt-3" : "hidden"
-          } items-center justify-between w-full md:flex md:w-auto md:order-1 rounded-lg border border-gray-100`}
+            menuOpen ? "block bg-customPink2 mt-3 rounded-lg border border-gray-100" : "hidden"
+          } items-center justify-between w-full md:flex md:w-auto md:order-1 `}
           id="navbar-sticky"
         >
-      <ul className="flex flex-col p-0 lg:p-4 md:p-0 mt-4 font-medium rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+      <ul className="flex flex-col p-0  md:p-0 mt-4 font-medium rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
       {sections.map((ele)=>{
         return (
           
