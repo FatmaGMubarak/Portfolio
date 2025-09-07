@@ -36,19 +36,19 @@ export default function About() {
 </div>
     <div className="mt-[8%] w-full ml-0 text-center lg:text-left lg:ml-[30%]">
         <h1 className="text-3xl font-bold">About Me</h1>
-        <h2 className="text-2xl font-semibold mt-4">
+        <h2 className="text-xl font-medium mt-4">
             Hi, I’m Fatma Gamal — a passionate Front End Developer specializing in building modern, user-friendly web applications with React.js. I enjoy transforming ideas into digital experiences that are both functional and visually engaging.
         </h2>
-        <h2 className="text-2xl font-semibold mt-4">
+        <h2 className="text-xl font-medium mt-4">
             Over the past years, I’ve worked on projects ranging from smart dashboards to interactive portfolios, combining creativity with technical precision. I thrive on solving problems, optimizing performance, and delivering solutions that make an impact.
         </h2>
-        <h2 className="text-2xl font-semibold mt-4">
+        <h2 className="text-xl font-medium mt-4">
             Beyond coding, I’m continuously exploring new technologies, designing intuitive interfaces, and finding creative ways to merge functionality with personality.
         </h2>
-        <h2 className="text-2xl font-semibold mt-4">
+        <h2 className="text-xl font-medium mt-4">
          My goal is simple: to bring innovation, reliability, and a touch of creativity to every project I work on.
         </h2>
-        <h2 className="text-2xl font-semibold mt-4">
+        <h2 className="text-xl font-medium mt-4">
             If you’re looking for someone who can turn your vision into reality — let’s connect! I’d love to collaborate and create something meaningful together.
         </h2>
     </div>
