@@ -20,7 +20,7 @@ export default function Projects() {
             description: "A custom-built admin dashboard system designed for the AIChE student chapter. The platform streamlines committee and member management, allowing admins to create and assign posts, track activities, and oversee multiple sections efficiently.",
             img: aicheP,
             githubLink: "https://github.com/FatmaGMubarak/Aiche-Dashboards.git",
-            demoLink: "https://drive.google.com/file/d/1RtJn0xPtebioXDAockTtE_OaHoQLTQfD/view?usp=drive_link"
+            demoLink: "https://drive.google.com/file/d/12frQApywg07z7cCiigE5jCw9zcpWCxCo/view?usp=drive_link"
         },
 
 
