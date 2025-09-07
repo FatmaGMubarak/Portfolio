@@ -25,9 +25,10 @@ export default function NavBar() {
     },
   ]
   const [activeSession, setActiveSession] = useState("homeSection");
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <>
-<nav className=" fixed w-full z-50 top-0 start-0 h-[10%] bg-[#D4DEE7] bg-[#ff7ea0]">
+<nav className=" fixed w-full z-50 top-0 start-0 h-[10%] bg-[#ff7ea0]">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 w-full">
     <a
       href="https://flowbite.com/"
@@ -47,11 +48,13 @@ export default function NavBar() {
         Download Resume
       </a>
       <button
+      onClick={()=>setMenuOpen(!menuOpen)}
         data-collapse-toggle="navbar-sticky"
         type="button"
         className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="navbar-sticky"
-        aria-expanded="false"
+        aria-expanded={menuOpen}
+        aria
       >
         <span className="sr-only">Open main menu</span>
         <svg
@@ -71,11 +74,13 @@ export default function NavBar() {
         </svg>
       </button>
     </div>
-    <div
-      className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-      id="navbar-sticky"
-    >
-      <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+     <div
+          className={`${
+            menuOpen ? "block bg-customPink2 mt-3" : "hidden"
+          } items-center justify-between w-full md:flex md:w-auto md:order-1 rounded-lg border border-gray-100`}
+          id="navbar-sticky"
+        >
+      <ul className="flex flex-col p-0 lg:p-4 md:p-0 mt-4 font-medium rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
       {sections.map((ele)=>{
         return (
           
