@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+  
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    /* background: linear-gradient(135deg, #7392B7, #D8E1E9); */
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #ffe5ec, 0.5;
+    background-image: url("./assets/bg3.png") ;
+    background-size: 700px;
+    background-repeat: repeat;
+    animation: moveBackground 30s linear infinite;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 50px 50px;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
