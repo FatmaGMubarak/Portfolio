@@ -39,7 +39,7 @@ export default function Skills() {
             return(
                 
                 <div key={index} className=" flex justify-center items-center w-full  ">
-                <div className="bg-[#ea638c] bg-opacity-50 w-[100%] lg:w-[40%] lg:h-[15vh] flex justify-center items-center  rounded-2xl drop-shadow-2xl hover: transition-transform hover:scale-105 duration-300">
+                <div className="bg-customBlue2 bg-opacity-50 w-[100%] lg:w-[40%] lg:h-[15vh] flex justify-center items-center  rounded-2xl drop-shadow-2xl hover: transition-transform hover:scale-105 duration-300">
                     {ele.icon}
                 </div>
                 </div>

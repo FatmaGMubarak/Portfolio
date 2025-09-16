@@ -7,11 +7,11 @@ export default function About() {
 <div className="flex">
         <div>
           <div className='flex flex-col h-[100vh] items-center justify-center gap-y-1 pl-10'>
-                <div className='bg-customPink1 w-1 h-[25%] rounded-sm'></div>
-                <div className='bg-customPink1 w-5 h-5 rounded-full'></div>
-                <div className='bg-customPink1 w-1 h-[25%] rounded-sm'></div>
-                <div className='bg-customPink1 w-5 h-5 rounded-full'></div>
-                <div className='bg-customPink1 w-1 h-[25%] rounded-sm'></div>
+                <div className='bg-customBlue1 w-1 h-[25%] rounded-sm'></div>
+                <div className='bg-customBlue1 w-5 h-5 rounded-full'></div>
+                <div className='bg-customBlue1 w-1 h-[25%] rounded-sm'></div>
+                <div className='bg-customBlue1 w-5 h-5 rounded-full'></div>
+                <div className='bg-customBlue1 w-1 h-[25%] rounded-sm'></div>
             </div>
     </div>
     <div className="flex w-full">

@@ -7,17 +7,19 @@ content: [
   theme: {
     extend: {
       colors:{
-        customBlue1: "#C5D5EA",
+        customBlue1: "#003566",
         customBlue2: "#759EB8",
-        customBlue3: "#7392B7",
-        customBlue4: "#B3C5D7",
-        customBlue5: "#D8E1E9",
-        customBlue6: "#0083C3",
+        customBlue3: "#014f86",
+        customBlue4: "#2c7da0",
+        customBlue5: "#468faf",
+        customBlue6: "#247ba0",
         customPink1: "#fb6f92",
         customPink2: "#ff8fab",
         customPink3: "#ffb3c6",
         customPink4: "#ffc2d1",
         customPink5: "#ffe5ec",
+        customYellow1: "#ffbd00",
+        customYellow2: "#f4d172",
 
       },
             keyframes: {

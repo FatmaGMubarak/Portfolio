@@ -28,14 +28,14 @@ export default function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <>
-<nav className=" fixed w-full z-50 top-0 start-0 h-[10%] bg-[#ff7ea0]">
+<nav className=" fixed w-full z-50 top-0 start-0 h-[10%] bg-[#003566]">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 w-full">
     <a
       href="https://flowbite.com/"
       className="flex items-center space-x-3 rtl:space-x-reverse"
     >
       
-      <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+      <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-white">
         F.G Portfolio
       </span>
     </a>
@@ -94,7 +94,7 @@ export default function NavBar() {
             onSetActive={()=>setActiveSession(ele.id)}
             onClick={(()=> setActiveSession(ele.id))}
             activeClass="active-link"
-            className={`block py-2 px-3  rounded-sm bg-transparent ${activeSession === ele.id ? `text-customPink5` : `text-customPink3`} cursor-pointer hover:text-customPink5`}
+            className={`block py-2 px-3  rounded-sm bg-transparent ${activeSession === ele.id ? `text-customYellow1` : `text-white`} cursor-pointer hover:text-customYellow1`}
           >
             {ele.title}
           </Link>

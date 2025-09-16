@@ -46,7 +46,7 @@ export default function Projects() {
         <div className="flex justify-center items-center">
             <button
             onClick={viewPrevious}
-            className='w-12 h-12 rounded-full bg-customPink1 flex justify-center items-center hover:transition-transform hover:scale-110 duration-300 hover:bg-customPink3 mt-[5%]'>
+            className='w-12 h-12 rounded-full bg-customBlue5 flex justify-center items-center hover:transition-transform hover:scale-110 duration-300 hover:bg-customBlue4 mt-[5%]'>
                 <FaArrowLeft className="text-white"/>
             </button>
             <AnimatePresence mode="wait">
@@ -62,7 +62,7 @@ export default function Projects() {
                 <h2 className="text-xl font-bold text-center">{currentProject?.title}</h2>
                 <h3 className="text-lg font-semibold mt-3 text-center">{currentProject?.description}</h3>
                 <div className='p-0 sm:p-10 mt-5 sm:mt-0 flex justify-evenly items-center w-full'>
-            <a href={currentProject?.githubLink} target='_blank' rel="noopener noreferrer" className="z-30 text-gray-800 bg-customBlue5 hover:bg-customBlue1 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">GitHub</a>
+            <a href={currentProject?.githubLink} target='_blank' rel="noopener noreferrer" className="z-30 text-white bg-customBlue5 hover:bg-customBlue4 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">GitHub</a>
             <a href={currentProject?.demoLink} target="_blank" rel="noopener noreferrer" className="text-white z-30 bg-[#ffbd00] hover:bg-[#f4d172] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
                 
                 Watch Demo
@@ -77,7 +77,7 @@ export default function Projects() {
                 
                         <button
                         onClick={viewNext}
-                        className='w-12 h-12 rounded-full bg-customPink1 flex justify-center items-center hover:transition-transform hover:scale-110 duration-300 hover:bg-customPink3 mt-[5%]'>
+                        className='w-12 h-12 rounded-full bg-customBlue5 flex justify-center items-center hover:transition-transform hover:scale-110 duration-300 hover:bg-customBlue4 mt-[5%]'>
                 <FaArrowRight className="text-white"/>
             </button>
         </div>
