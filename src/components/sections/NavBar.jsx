@@ -29,16 +29,17 @@ export default function NavBar() {
   return (
     <>
 <nav className=" fixed w-full z-50 top-0 start-0 h-[10%] bg-[#003566]">
-  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 w-full">
-    <a
-      href="https://flowbite.com/"
+  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 w-full cursor-pointer">
+    <Link
+    to="homeSection"
+      
       className="flex items-center space-x-3 rtl:space-x-reverse"
     >
       
       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-white">
         F.G Portfolio
       </span>
-    </a>
+    </Link>
     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
       <a
         href="/Fatma.pdf"
